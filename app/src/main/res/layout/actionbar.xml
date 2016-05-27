@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:elevation="@dimen/elevacion_actionbar"
+    tools:ignore="UnusedAttribute"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:navigationIcon="?attr/homeAsUpIndicator"
+    android:title="sdafhjsadflh"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <ImageButton
+        android:id="@+id/btnsubir"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/dog_footprint_48"
+        android:clickable="true"
+        android:layout_gravity="left"
+        android:onClick="irMainActivity"
+        ></ImageButton>
+
+
+
+
+        />
+    <TextView
+        android:id="@+id/actionbarNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_gravity="center"
+        android:textSize="@dimen/nombre_cardview"/>
+
+    <ImageButton
+        android:id="@+id/btnlike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/star"
+        android:onClick="irSegundaActividad"
+        android:layout_gravity="right"
+
+        />
+
+
+    </FrameLayout>
+</android.support.v7.widget.Toolbar>
